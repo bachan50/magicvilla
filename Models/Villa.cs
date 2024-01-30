@@ -10,6 +10,8 @@ namespace WebAPI.Models
         public  string Name { get; set; }
 
         public DateOnly CreatedDate { get; set; }
+
+        public DateTime ModifiedDate { get; set; }
         
     }
 }
